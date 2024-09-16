@@ -120,14 +120,6 @@ def vec_3d_to_SO3(x):
 
 
 
-
-
-
-
-
-
-
-
 def calculate_T_CO_pred(model_output, T_CO_init, rot_repr, Ks):
     bsz = model_output.shape[0]
     if rot_repr == 'SVD':

@@ -69,7 +69,7 @@ def validate_model(model, config, val_or_test):
     device = config["train_params"]["device"]
     use_par_render = config["scene_config"]["use_parallel_rendering"]
 
-    test_iterations_per_class= config["val_config"]["iterations_per_class"]
+    test_iterations_per_class = config["val_config"]["iterations_per_class"]
     test_predict_iterations = config["val_config"]["predict_iterations"]
 
     ds_conf = config["val_dataset_config"]

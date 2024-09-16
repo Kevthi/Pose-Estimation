@@ -53,10 +53,6 @@ def compute_transl_dist(T_CO_gt, T_CO_pred):
 
 
 
-
-
-
-
 def transform_pts(T, pts):
     """
     copied from

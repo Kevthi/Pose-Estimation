@@ -16,12 +16,12 @@ transforms = A.Compose([
 ])
 
 
-def get_vertices(mesh_path):
+def get_vertices(mesh_path: str):
     mesh = tm.load(mesh_path)
     vertices = mesh.vertices
     return vertices
 
-def sample_vertices_as_tensor(mesh_path, num_verts=1000):
+def sample_vertices_as_tensor(mesh_path : str, num_verts=1000):
     verts = get_vertices(mesh_path)
     sampled_verts = []
     for i in range(num_verts):

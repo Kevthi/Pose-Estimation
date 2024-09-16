@@ -1,8 +1,13 @@
 import torch
 import os
 
-ds_classes = ["bed", "chair", "desk", "dresser", "monitor", "night_stand", "sofa", "table","toilet"]
-test_classes = ["bed", "chair", "desk", "dresser", "monitor", "night_stand", "sofa", "table","toilet"]
+#True code
+#ds_classes = ["bed", "chair", "desk", "dresser", "monitor", "night_stand", "sofa", "table","toilet"]
+#test_classes = ["bed", "chair", "desk", "dresser", "monitor", "night_stand", "sofa", "table","toilet"]
+
+#Test part
+ds_classes = ["bed"]
+test_classes = ["bed"]
 
 def get_config():
 
