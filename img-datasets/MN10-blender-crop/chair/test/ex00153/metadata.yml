@@ -1,0 +1,6 @@
+dataset_name: ModelNet10-norm-clean-ply
+env_map_path: assets/hdri/industrial/test/industrial_pipe_and_valve_02_1k.hdr
+mesh_class: chair
+mesh_filename: chair_0506.ply
+train_or_test: train
+unix_mesh_path: ModelNet10-norm-clean-ply/chair/train/chair_0506.ply

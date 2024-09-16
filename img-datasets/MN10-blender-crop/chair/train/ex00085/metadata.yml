@@ -1,0 +1,6 @@
+dataset_name: ModelNet10-norm-clean-ply
+env_map_path: assets/hdri/industrial/train/castle_zavelstein_cellar_1k.hdr
+mesh_class: chair
+mesh_filename: chair_0874.ply
+train_or_test: train
+unix_mesh_path: ModelNet10-norm-clean-ply/chair/train/chair_0874.ply

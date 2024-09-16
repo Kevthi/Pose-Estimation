@@ -1,0 +1,6 @@
+dataset_name: ModelNet10-norm-clean-ply
+env_map_path: assets/hdri/industrial/train/abandoned_workshop_1k.hdr
+mesh_class: toilet
+mesh_filename: toilet_0311.ply
+train_or_test: train
+unix_mesh_path: ModelNet10-norm-clean-ply/toilet/train/toilet_0311.ply

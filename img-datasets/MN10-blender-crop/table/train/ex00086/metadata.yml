@@ -1,0 +1,6 @@
+dataset_name: ModelNet10-norm-clean-ply
+env_map_path: assets/hdri/industrial-4k/train/autoshop_01_4k.hdr
+mesh_class: table
+mesh_filename: table_0376.ply
+train_or_test: train
+unix_mesh_path: ModelNet10-norm-clean-ply/table/train/table_0376.ply

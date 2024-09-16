@@ -1,0 +1,6 @@
+dataset_name: ModelNet10-norm-clean-ply
+env_map_path: assets/hdri/industrial/test/abandoned_factory_canteen_02_1k.hdr
+mesh_class: bed
+mesh_filename: bed_0401.ply
+train_or_test: train
+unix_mesh_path: ModelNet10-norm-clean-ply/bed/train/bed_0401.ply

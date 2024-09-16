@@ -1,0 +1,6 @@
+dataset_name: ModelNet10-norm-clean-ply
+env_map_path: assets/hdri/industrial-4k/test/autoshop_01_4k.hdr
+mesh_class: sofa
+mesh_filename: sofa_0263.ply
+train_or_test: train
+unix_mesh_path: ModelNet10-norm-clean-ply/sofa/train/sofa_0263.ply

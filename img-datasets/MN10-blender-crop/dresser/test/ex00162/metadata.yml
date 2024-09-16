@@ -1,0 +1,6 @@
+dataset_name: ModelNet10-norm-clean-ply
+env_map_path: assets/hdri/industrial/test/industrial_pipe_and_valve_02_1k.hdr
+mesh_class: dresser
+mesh_filename: dresser_0009.ply
+train_or_test: train
+unix_mesh_path: ModelNet10-norm-clean-ply/dresser/train/dresser_0009.ply

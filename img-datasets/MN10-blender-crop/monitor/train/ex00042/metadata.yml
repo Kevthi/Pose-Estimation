@@ -1,0 +1,6 @@
+dataset_name: ModelNet10-norm-clean-ply
+env_map_path: assets/hdri/industrial/train/aircraft_workshop_01_1k.hdr
+mesh_class: monitor
+mesh_filename: monitor_0431.ply
+train_or_test: train
+unix_mesh_path: ModelNet10-norm-clean-ply/monitor/train/monitor_0431.ply

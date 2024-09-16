@@ -1,0 +1,65 @@
+asset_conf:
+  env_maps_dir: assets/hdri
+  pbr_dir: assets/pbrs
+  texture_dir: assets/textures
+camera_intrinsics:
+  focal_length: 50
+  image_resolution: 720
+  sensor_width: 36
+config_name: MN10-blender
+general:
+  dataset_name: ModelNet10-norm-clean-ply
+  modelnet_classes:
+  - bed
+  - chair
+  - desk
+  - dresser
+  - monitor
+  - night_stand
+  - sofa
+  - table
+  - toilet
+  num_sample_vertices: 1000
+  split:
+    test: 50
+    train: 100
+    validation: 50
+guess_render:
+  name: pyrender
+  render_depth: true
+  render_normal: true
+real_render:
+  cache_dir: blender-cache
+  env_map_multiplier: !!python/tuple
+  - 1.0
+  - 1.3
+  env_map_types:
+  - industrial-4k
+  - industrial
+  exec_path: /usr/local/bin/blender
+  material_samplers:
+  - pbr_type: metal
+    probability_weight: 0.5
+    roughness_range: !!python/tuple
+    - 0.1
+    - 0.7
+    type: pbr
+  - base_color_range: !!python/tuple
+    - 0.2
+    - 0.4
+    probability_weight: 0.5
+    roughness_range: !!python/tuple
+    - 0.2
+    - 0.3
+    type: bsdf-metal
+  name: blender
+  nested_pyrender: null
+  py_script_path: blender-cache/script.py
+scene_config:
+  distance_cam_to_world: 2.8
+  distance_cam_to_world_deviation: 0.2
+  sample_only_transl_prob: 0.2
+  sampling: uniform
+  world_to_object_angle_deviation: 30
+  world_to_object_gt_transl_deviation: 0.05
+  world_to_object_transl_deviation: 0.15

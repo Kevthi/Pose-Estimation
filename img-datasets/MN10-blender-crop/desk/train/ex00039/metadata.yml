@@ -1,0 +1,6 @@
+dataset_name: ModelNet10-norm-clean-ply
+env_map_path: assets/hdri/industrial/train/old_depot_1k.hdr
+mesh_class: desk
+mesh_filename: desk_0109.ply
+train_or_test: train
+unix_mesh_path: ModelNet10-norm-clean-ply/desk/train/desk_0109.ply
