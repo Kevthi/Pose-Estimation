@@ -1,7 +1,7 @@
 import os
 #os.environ['PYOPENGL_PLATFORM'] = 'osmesa'
-#os.environ['PYOPENGL_PLATFORM'] = 'egl'
-os.environ['PYOPENGL_PLATFORM'] = 'win32'
+os.environ['PYOPENGL_PLATFORM'] = 'egl'
+#os.environ['PYOPENGL_PLATFORM'] = 'win32' (If running on windows)
 import numpy as np
 import spatialmath as sm
 import trimesh as tm
