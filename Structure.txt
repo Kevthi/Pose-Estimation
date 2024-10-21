@@ -1,0 +1,18 @@
+Structure:
+
+
+model3-dataset
+- ModelNet10-texturized
+- ModelNet10-norm-clean-ply (containing all he object that are normalized)
+
+
+
+img-datasets
+- MN10-blender 
+- MN10-blender-crop
+
+
+configs
+- example_config.py
+
+

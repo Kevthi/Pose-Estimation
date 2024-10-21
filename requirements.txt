@@ -1,6 +1,6 @@
 numpy
-spatialmath-python
-pyrender
+#spatialmath-python #spatialmath-python --no-deps
+pyrender #
 efficientnet_pytorch
 perceiver-pytorch
 albumentations
